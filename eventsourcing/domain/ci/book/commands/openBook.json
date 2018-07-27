@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "content": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "content"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

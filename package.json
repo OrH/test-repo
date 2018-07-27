@@ -1,0 +1,29 @@
+{
+  "name": "test-repo",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start.local": "npx nodemon --inspect",
+    "start": "node .",
+    "eslint": "npx eslint ."
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cqrs-domain": "^2.14.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "~2.13.0",
+    "nodemon": "^1.18.3",
+    "supports-color": "^5.4.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "test repo"
+}
